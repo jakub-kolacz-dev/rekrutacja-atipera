@@ -45,26 +45,6 @@ Returns all non-fork repositories for the specified GitHub username along with b
   }
 ]
 
-## Project Structure
-
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── example/
-│   │           └── rozmowaatipera/
-│   │               ├── controller/
-│   │               ├── model/
-│   │               └── config/
-│   └── resources/
-└── test/
-└── groovy/
-└── com/
-└── example/
-└── rozmowaatipera/
-├── controller/
-└── stubs/
-
 ## Technologies Used
 - Spring Boot
 - Java 21
