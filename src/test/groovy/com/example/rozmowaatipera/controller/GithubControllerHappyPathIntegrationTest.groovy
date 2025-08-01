@@ -37,8 +37,9 @@ class GithubControllerHappyPathIntegrationTest extends Specification {
     }
 
     /* the other suggestion and approach that I wanted to show is using parametrized test with a lot of test cases
-       this would require parametrizing username input as well as mocks, outputs, and results, so I decided to keep it simple
-       just to test core logic of this controller*/
+       this would require parametrizing username input as well as mocks, outputs, and results (which may make the test unreadable,
+        so I decided to keep it simple just to test core logic of this controller*/
+
     def "should return non-fork repositories with branches for valid username"() {
         given: "a username and mocked GitHub API responses"
         def username = "testuser"
